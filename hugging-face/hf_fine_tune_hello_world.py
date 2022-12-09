@@ -34,7 +34,6 @@ def compute_metrics(eval_pred):
 small_train_dataset = tokenized_datasets["train"].shuffle(seed=42).select(range(1000))
 small_eval_dataset = tokenized_datasets["test"].shuffle(seed=42).select(range(1000))
 
-
 training_args = TrainingArguments(output_dir="test_trainer", evaluation_strategy="epoch")
 trainer = Trainer(
     model=model,

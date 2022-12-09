@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Michelle_Li_NLP_Project/hugging-face/mlruns/0/c0b6ad64c9bf4712889918a69f9dba29/artifacts
+end_time: 1670621519785
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c0b6ad64c9bf4712889918a69f9dba29
+run_name: test_trainer
+run_uuid: c0b6ad64c9bf4712889918a69f9dba29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670621382572
+status: 3
+tags: []
+user_id: codespace
