@@ -3,7 +3,7 @@
 
 
 ### Get Reddit data
-* Data pulled in notebook `data/reddit_scraping.ipynb`
+* Data pulled in notebook `reddit_data/reddit_scraping.ipynb`
 ### Verify GPU works
 * Run pytorch training test: `python utils/quickstart_pytorch.py`
 * Run pytorch CUDA test: `python utils/verify_cuda_pytorch.py`
