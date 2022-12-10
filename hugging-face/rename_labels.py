@@ -1,4 +1,5 @@
 from transformers import AutoConfig, AutoModelForSequenceClassification
+
 # define the mappings as dictionaries
 label2id = {"NSFW": 0, "SFW": 1}
 id2label = {0: "NSFW", 1: "SFW"}
