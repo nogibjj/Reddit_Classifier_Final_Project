@@ -14,7 +14,7 @@
 * In terminal, run `huggingface-cli login`
 * Run `python fine_tune_berft.py` to finetune the model on Reddit data 
 * Run `rename_labels.py` to change the output labels of the classifier
-* Check out the fine-tuned modle [here](https://huggingface.co/michellejieli/NSFW_text_classifier)
+* Check out the fine-tuned model [here](https://huggingface.co/michellejieli/NSFW_text_classifier)
 
 
 
