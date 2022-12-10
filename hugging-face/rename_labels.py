@@ -1,8 +1,8 @@
 from transformers import AutoConfig, AutoModelForSequenceClassification
 
 # define the mappings as dictionaries
-label2id = {"NSFW": 0, "SFW": 1}
-id2label = {0: "NSFW", 1: "SFW"}
+label2id = {"NSFW": 1, "SFW": 0}
+id2label = {1: "NSFW", 0: "SFW"}
 # define model checkpoint - can be the same model that you already have on the hub
 model_ckpt = "michellejieli/NSFW_text_classifier"
 # define config

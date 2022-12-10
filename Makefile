@@ -15,7 +15,8 @@ format:
 	black hugging-face/*.py mylib/*.py
 
 lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py mylib/*.py hugging-face/*.py 
+	# add torch to generated-members
+	pylint --disable=R,C --generated-members=torch --ignore-patterns=test_.*?py mylib/*.py hugging-face/*.py
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile

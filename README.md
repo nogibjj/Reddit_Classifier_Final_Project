@@ -3,7 +3,7 @@
 
 
 ### Get Reddit data
-* Data pulled in notebook `reddit_data/reddit_scraping.ipynb`
+* Data pulled in notebook `reddit_data/reddit_new.ipynb`
 ### Verify GPU works
 * Run pytorch training test: `python utils/quickstart_pytorch.py`
 * Run pytorch CUDA test: `python utils/verify_cuda_pytorch.py`
@@ -14,7 +14,7 @@
 * In terminal, run `huggingface-cli login`
 * Run `python fine_tune_berft.py` to finetune the model on Reddit data 
 * Run `rename_labels.py` to change the output labels of the classifier
-* Check out the fine-tuned model [here](https://huggingface.co/michellejieli/NSFW_text_classifier)
+* Check out the fine-tuned model [here](https://huggingface.co/michellejieli/inappropriate_text_classifier)
 
 
 
