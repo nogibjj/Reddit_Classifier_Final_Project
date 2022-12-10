@@ -1,5 +1,12 @@
 #ignore huggingface
-summarizeApp
+logs/
+cache_dir/
+runs/
+transformers/
+results/
+mlruns/
+models/
+
 #ignore fine-tuning
 test_trainer/
 
